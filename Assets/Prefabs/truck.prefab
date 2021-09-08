@@ -1809,6 +1809,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3768267480434312676, guid: f9ed778eebf99084fbb2c3e5dd964327, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4539703064331935582, guid: f9ed778eebf99084fbb2c3e5dd964327, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15
@@ -1859,15 +1863,7 @@ PrefabInstance:
       objectReference: {fileID: 9000000, guid: c0b891d3a0dcaed4a8b9c64042e1cc36, type: 3}
     - target: {fileID: 7629220050548557092, guid: f9ed778eebf99084fbb2c3e5dd964327, type: 3}
       propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'Character1_Hips'\n\tTransform 'Character1_Neck'\n\tTransform
-        'Character1_LeftHand'\n\tTransform 'Character1_RightForeArm'\n\tTransform
-        'Character1_Spine'\n\tTransform 'Character1_RightHandThumb1'\n\tTransform
-        'Character1_RightUpLeg'\n\tTransform 'Character1_LeftHandThumb1'\n\tTransform
-        'Character1_RightArm'\n\tTransform 'Character1_Spine2'\n\tand more ...\n\tFrom
-        animation clip 'running'\n\tFrom animation clip 'running2'\n\tFrom animation
-        clip 'idle'"
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7629220050548557092, guid: f9ed778eebf99084fbb2c3e5dd964327, type: 3}
       propertyPath: m_UpdateMode
@@ -1877,6 +1873,10 @@ PrefabInstance:
       propertyPath: m_ApplyRootMotion
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7629220050548557092, guid: f9ed778eebf99084fbb2c3e5dd964327, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1f58c78b3491cf74ca41ce444c9a1836, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9ed778eebf99084fbb2c3e5dd964327, type: 3}
 --- !u!4 &8700584318830298871 stripped
